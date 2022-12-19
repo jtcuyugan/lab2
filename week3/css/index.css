@@ -13,7 +13,7 @@
   color: white;
   }
  body{
-   background-image:url('./images/astronaut.png');
+   background-image:url('../images/astronaut.png');
    background-repeat: no-repeat;
    background-attachment: fixed;
    text-align: center;
