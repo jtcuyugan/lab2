@@ -50,13 +50,6 @@
 			color: lightpink;
 		}
 
-		video#myVideo {
-			position: fixed;
-			top: 0;
-			right: 0;
-			width: 100%;
-			z-index: -1000;
-		}
 
 		li a img{
 			text-decoration: none;
@@ -90,7 +83,6 @@
 		p#lobbytext{
 			line-height: 0px;
 			background-color: black, opacity(0.5);
-			text-align: left;
 			vertical-align: bottom;
 			margin-left: 10px;
 			z-index: 2;
