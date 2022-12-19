@@ -1,31 +1,97 @@
-.column {
-  float: left;
-  width: 32%;
-  padding: 5px;
-  }
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  }
- #blurb{
-  size: 15px;
-  color: white;
-  }
- body{
-   background-image:url('../images/astronaut.png');
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   text-align: center;
-   align-items: center;
-   color: white;
-  }
-  div#navbar{
-      position: fixed;
-      top: 0;
-      height: 14.5%;
-      width: 100%;
-      z-index: 3;
-      left: 0;
-      bottom: 5;
-    }
+@font-face {
+    		font-family: 'joane_stencilregular';
+   			src: url('../fonts/joane_stencil_regular-webfont.woff2') format('woff2'),
+        		 url('../fonts/joane_stencil_regular-webfont.woff') format('woff');
+    		font-weight: normal;
+    		font-style: normal;
+		}
+
+		body{
+			background-color: black;
+		}
+
+		div#navbar{
+			position: fixed;
+			top: 0;
+			height: 14.5%;
+			width: 100%;
+			z-index: 3;
+			left: 0;
+			bottom: 5;
+		}
+
+		div#pageselector{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 3;
+			background-color: black;
+		}
+
+		li#buttons{
+			width: 100px;
+			height: 50px;
+			background-color: black;
+			display: inline-block;
+			z-index: 3;
+		}
+
+		li a#buttons{
+			display: block;
+			color: white;
+			width: auto;
+			padding: 20px 20px 0px 0px;
+			text-decoration: none;
+			position: absolute;
+			font-size: 18px;
+		}
+
+		li a#buttons:hover{
+			color: lightpink;
+		}
+
+		video#myVideo {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100%;
+			z-index: -1000;
+		}
+
+		li a img{
+			text-decoration: none;
+		}
+
+		img#logo{
+			width: 50px;
+			padding: 0px 40px 0px 0px;
+			color: transparent;
+		}
+
+		ul{
+			display: inline-block;
+			z-index: 3;
+		}
+
+		hr#header{
+			opacity: 0.5;
+			color: white;
+			size: 4;
+		}
+
+		div#contents{
+			height: 520px;
+			background-color: rgba(0,0,0,.5); 
+			position: relative;
+			z-index: 2;
+
+		}
+
+		p#lobbytext{
+			line-height: 0px;
+			background-color: black, opacity(0.5);
+			text-align: left;
+			vertical-align: bottom;
+			margin-left: 10px;
+			z-index: 2;
+		}
