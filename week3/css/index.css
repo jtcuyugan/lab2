@@ -8,15 +8,15 @@
   clear: both;
   display: table;
   }
-  #blurb{
-   size: 15px;
-   color: white;
+ #blurb{
+  size: 15px;
+  color: white;
   }
-  body{
-   text-align: center;
-   color: white;
+ body{
    background-image:url('images/astronaut.png');
    background-repeat: no-repeat;
    background-position: center;
    background-attachment: fixed;
+   text-align: center;
+   color: white;
   }
