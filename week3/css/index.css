@@ -32,7 +32,7 @@
 		li#buttons{
 			width: 100px;
 			height: 50px;
-			background-color: black;
+			background-color: transparent;
 			display: inline-block;
 			z-index: 3;
 		}
@@ -61,6 +61,7 @@
 
 		li a img{
 			text-decoration: none;
+			color: transparent;
 		}
 
 		img#logo{
@@ -106,34 +107,40 @@
 			z-index: 2;
 		}
 
-		p#lobbylink{
-			line-height: 1px;
-			background-color: black, opacity(0.5);
-			text-align: right;
-			vertical-align: bottom;
-			margin-right: 10px;
-			z-index: 2;
-		}
-
-		p#lobbylink a#spotify{
-			color: #76DBBF;
-  			border: 2px solid white;
-  			padding: 10px 20px;
-  			text-align: center;
-  			text-decoration: none;
-  			display: inline-block;
-		}
-
-		a#logobutton{
-			display: block;
-			color: white;
-			width: auto;
-			padding: 20px 20px 0px 0px;
+		a img{
 			text-decoration: none;
-			position: absolute;
-			font-size: 18px;
+			color: transparent;
 		}
 
-		li a#logobutton:hover{
-			color: #76dbbf;
+		div#wpageselector{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 3;
+		}
+
+		div#gallery {
+			margin: 5px;
+			float: absolute;
+			width: 180px;
+			color: transparent;
+			display:block;
+		}
+			  
+		div#gallery a img{
+			width: 75px;
+			height: auto;
+		}
+			  
+		div#desc{
+			padding: 10px;
+			text-align: center;
+		}
+
+		li#wbuttons{
+			width: 250px;
+			height: 50px;
+			background-color: transparent;
+			display: inline-block;
+			z-index: 3;
 		}
