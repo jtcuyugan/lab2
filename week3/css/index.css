@@ -119,6 +119,14 @@
 			z-index: 3;
 		}
 
+		li#wbuttons{
+			width: 250px;
+			height: 50px;
+			background-color: transparent;
+			display: inline-block;
+			z-index: 3;
+		}
+
 		div#gallery {
 			margin: 5px;
 			float: absolute;
@@ -137,10 +145,4 @@
 			text-align: center;
 		}
 
-		li#wbuttons{
-			width: 250px;
-			height: 50px;
-			background-color: transparent;
-			display: inline-block;
-			z-index: 3;
-		}
+		
