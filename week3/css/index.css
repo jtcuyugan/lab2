@@ -122,6 +122,7 @@
 		div#wpageselector ul{
 			display: inline-block;
 			z-index: 3;
+			list-style: none
 		}
 
 		li#wbuttons{
