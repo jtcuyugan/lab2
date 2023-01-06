@@ -125,6 +125,7 @@
 		}
 
 		li#wbuttons{
+			list-style: none;
 			width: 250px;
 			height: 50px;
 			background-color: transparent;
