@@ -87,10 +87,19 @@ p#lobbytext{
 		margin-left: 10px;
 		z-index: 2;
 		}
+/*
+HTML
 
+<div id="gallery">
+	<a target="_blank" href="../images/jamlaxy.jpg">
+	  <img src="../images/jamlaxy.jpg" alt="Cinque Terre" width="600" height="400">
+	</a>
+	<div id="desc">Add a description of the image here</div>
+  </div>
+
+CSS
 div#gallery {
 		margin: 5px;
-		border: 1px solid #ccc;
 		float: left;
 		width: 180px;
 		}
@@ -108,3 +117,28 @@ div#desc {
 		padding: 15px;
 		text-align: center;
 		}
+*/
+		/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+@media only screen and (max-width: 735px) {
+  .gallery {
+    gap: 3px;
+  }
+}
+.gallery-item {
+  position: relative;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.gallery-item .media-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
