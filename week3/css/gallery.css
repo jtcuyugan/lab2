@@ -118,7 +118,7 @@ p#lobbytext{
   position: relative;
 }
 .gallery-item img {
-  width: 100%;
+  width: 75%;
   height: auto;
   display: block;
 }
@@ -127,3 +127,14 @@ p#lobbytext{
   top: 0px;
   right: 0px;
 }
+
+.zoom {
+	padding: 25px;
+	background-color: transparent;
+	transition: transform .2s;
+	margin: 0 auto;
+  }
+  
+  .zoom:hover {
+	transform: scale(1.5);
+  }
