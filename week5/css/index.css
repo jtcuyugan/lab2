@@ -1,0 +1,154 @@
+@font-face {
+    		font-family: 'joane_stencilregular';
+   			src: url('../fonts/joane_stencil_regular-webfont.woff2') format('woff2'),
+        		 url('../fonts/joane_stencil_regular-webfont.woff') format('woff');
+    		font-weight: normal;
+    		font-style: normal;
+		}
+
+		body{
+			background-image:url("../images/astronaut.png");
+			background-repeat: no-repeat;
+			overflow:hidden;
+		}
+
+		div#navbar{
+			position: fixed;
+			top: 0;
+			height: 14.5%;
+			width: 100%;
+			z-index: 3;
+			left: 0;
+			bottom: 5;
+		}
+
+		div#pageselector{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 3;
+			background-color: black;
+		}
+
+		li#buttons{
+			width: 100px;
+			height: 50px;
+			background-color: transparent;
+			display: inline-block;
+			z-index: 3;
+		}
+
+		li a#buttons{
+			display: block;
+			color: white;
+			width: auto;
+			padding: 20px 20px 0px 0px;
+			text-decoration: none;
+			position: absolute;
+			font-size: 18px;
+		}
+
+		li a#buttons:hover{
+			color: #76dbbf;
+		}
+
+		video#myVideo {
+			position: fixed;
+			top: 0;
+			right: 0;
+			width: 100%;
+			z-index: -1000;
+		}
+
+		li a img{
+			text-decoration: none;
+			color: transparent;
+		}
+
+		img#logo{
+			width: 50px;
+			padding: 0px 40px 0px 0px;
+			color: transparent;
+		}
+
+		ul{
+			display: inline-block;
+			z-index: 3;
+		}
+
+		hr#header{
+			opacity: 0.5;
+			color: white;
+			size: 4;
+		}
+
+		div#contents{
+			height: 520px;
+			background-color: rgba(0,0,0,.5); 
+			position: relative;
+			z-index: 2;
+
+		}
+
+		p#lobbytitle{
+			line-height: 2px;
+			background-color: black, opacity(0.5);
+			text-align: left;
+			vertical-align: bottom;
+			margin-left: 10px;
+			z-index: 2;
+		}
+
+		p#lobbytext{
+			line-height: 0px;
+			background-color: black, opacity(0.5);
+			text-align: left;
+			vertical-align: bottom;
+			margin-left: 10px;
+			z-index: 2;
+		}
+
+		a img{
+			text-decoration: none;
+			color: transparent;
+		}
+
+		div#wpageselector{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 3;
+		}
+
+		div#wpageselector ul{
+			display: inline-block;
+			z-index: 3;
+			list-style: none
+		}
+
+		li#wbuttons{
+			list-style: none;
+			width: 250px;
+			height: 50px;
+			background-color: transparent;
+			display: inline-block;
+			z-index: 3;
+		}
+
+		div#gallery {
+			margin: 5px;
+			float: absolute;
+			width: 180px;
+			color: transparent;
+			display:block;
+		}
+			  
+		div#gallery a img{
+			width: 75px;
+			height: auto;
+		}
+			  
+		div#desc{
+			padding: 10px;
+			text-align: center;
+		}
