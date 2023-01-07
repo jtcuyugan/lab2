@@ -74,7 +74,7 @@
 		}
 
 		div#contents{
-			height: 520px;
+			height: auto;
 			background-color: rgba(0,0,0,.5); 
 			position: relative;
 			z-index: 2;
@@ -88,3 +88,40 @@
 			margin-left: 10px;
 			z-index: 2;
 		}
+
+		.container {
+			position: relative;
+			height:auto;
+			background-color: rgba(0,0,0,.5); 
+			z-index: 2;
+		  }
+		  
+		  .overlay {
+			position: absolute;
+			bottom: 0;
+			left: 35%;
+			right: 35%;
+			background-color: #76DBBF;
+			overflow: hidden;
+
+			height: 0;
+			transition: .5s ease;
+		  }
+		  
+		  .container:hover .overlay {
+			height: 100%;
+		  }
+		  
+		  .text {
+			line-height: auto;
+			word-wrap: break-word;
+			color: black;
+			font-size: 20px;
+			position: absolute;
+			overflow: hidden;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			
+		  }
