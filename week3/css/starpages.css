@@ -9,8 +9,25 @@
 		body{
 			background:url("../images/astronaut.png") no-repeat;
 			background-attachment: fixed;
-
+			overflow:auto;
 		}
+		
+		
+	::-webkit-scrollbar {
+	width: 10px;
+  	}
+  
+  	::-webkit-scrollbar-track {
+	background: black;
+  	}
+  
+	::-webkit-scrollbar-thumb {
+	background: #9D1AFB;
+  	}
+  
+  	::-webkit-scrollbar-thumb:hover {
+	background: #76DBBF;
+  	}
 
 		div#navbar{
 			position: fixed;

@@ -9,6 +9,7 @@
 		body{
 			background-image:url("../images/astronaut.png");
 			background-repeat: no-repeat;
+			overflow:hidden;
 		}
 
 		div#navbar{
@@ -151,5 +152,3 @@
 			padding: 10px;
 			text-align: center;
 		}
-
-		
