@@ -4,14 +4,9 @@
 	<title>[ SPACE JAM ]</title>
 	<link rel="icon" href="/images/wootteohome.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href = "css/index.css">
-	<script src="jscript/sample.js"></script>
+	<script src="jscript/index.js"></script>
 </head>
-<body>
-
-<div id="initial-loader" class="padded"><span id="loader-text"></span></div>
-<div id="main-body">
-	<section id="page-structure" class="ajax">
-		<header class="eliza height-95 black back-block-green-bottom-right">
+<body onload="typeWriter()">
 
 <div id="navbar" id="top">
 	<div id="pageselector">
@@ -32,19 +27,19 @@
 	<source src="videos/astronaut.mp4" type="video/mp4">
 </video>
 
-<br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 
 <div id="contents">
-		<br><br>
+		<br><br><br>
 
-		<p style="font-size: 55px; font-family: joane_stencilregular; color: white;" id="lobbytitle">Welcome to Jam's Space</p>
-		<p style="font-size: 25px; font-family: joane_stencilregular; color: white;" id="lobbytitle">Galaxy 1682002</p>
+		<p style="font-size: 60px; font-family: joane_stencilregular; color: white;" id="lobbytitle"></p>
+		<p style="font-size: 30px; font-family: TimesNewRoman; color: white;" id="lobbytext">Galaxy 1682002</p>
 		<br>
-		<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">About:</p>
-		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbytext">Either called Jam or Jamzy, this galaxy is known</p>
-		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbytext">for the various celestial bodies swimming along </p>
-		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbytext">her space. This galaxy is continuously expanding </p>
-		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbytext">and its entirety is still being explored.</p>
+		<p style="font-size: 30px; font-family: joane_stencilregular; color: white;" id="lobbytext">About:</p>
+		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">Either called Jam or Jamzy, this galaxy is known</p>
+		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">for the various celestial bodies swimming along </p>
+		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">her space. This galaxy is continuously expanding </p>
+		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">and its entirety is still being explored.</p>
 		
 <div id="wpageselector">
 	<center>
@@ -78,10 +73,7 @@
 		</ul>
 	</center>
 	</div>
-</div>
-
-</header>
-</section>
+	<br>
 </div>
 
 </body>

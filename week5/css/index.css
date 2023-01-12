@@ -99,7 +99,7 @@
 		}
 
 		div#contents{
-			height: 520px;
+			height: 560px;
 			background-color: rgba(0,0,0,.5); 
 			position: relative;
 			z-index: 2;
@@ -116,6 +116,15 @@
 		}
 
 		p#lobbytext{
+			line-height: 0px;
+			background-color: black, opacity(0.5);
+			text-align: left;
+			vertical-align: bottom;
+			margin-left: 10px;
+			z-index: 2;
+		}
+
+		p#lobbydesc{
 			line-height: 0px;
 			background-color: black, opacity(0.5);
 			text-align: left;
