@@ -1,6 +1,7 @@
 let slideIndex = 0;
 showSlides();
 
+/* Lesson 18: Functions */
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
