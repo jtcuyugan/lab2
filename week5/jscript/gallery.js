@@ -5,6 +5,7 @@ showSlides();
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
+  /* LESSON 22: HTML DOM */
   let dots = document.getElementsByClassName("dot");
   /* LESSON 10: Loop For */
   for (i = 0; i < slides.length; i++) {
