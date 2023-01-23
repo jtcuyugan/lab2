@@ -10,6 +10,7 @@ function showSlides() {
     slides[i].style.display = "none";  
   }
   slideIndex++;
+  /* LESSON 10: Break */
   if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
