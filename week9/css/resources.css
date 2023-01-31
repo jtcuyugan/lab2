@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'joane_stencilregular';
+       src: url('../fonts/joane_stencil_regular-webfont.woff2') format('woff2'),
+         url('../fonts/joane_stencil_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background:url("../images/astronaut.png") no-repeat;
+    background-attachment: fixed;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+  	}
+  
+  	::-webkit-scrollbar-track {
+	background: black;
+  	}
+  
+	::-webkit-scrollbar-thumb {
+	background: #9D1AFB;
+  	}
+  
+  	::-webkit-scrollbar-thumb:hover {
+	background: #76DBBF;
+  	}
+
+div#navbar{
+    position: fixed;
+    top: 0;
+    height: 14.5%;
+    width: 100%;
+    z-index: 3;
+    left: 0;
+    bottom: 5;
+}
+
+div#pageselector{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    background-color: black;
+}
+
+li#buttons{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    display: inline-block;
+    z-index: 3;
+}
+
+li a#buttons{
+    display: block;
+    color: white;
+    width: auto;
+    padding: 20px 20px 0px 0px;
+    text-decoration: none;
+    position: absolute;
+    font-size: 18px;
+}
+
+li a#buttons:hover{
+    color: hsl(163.4,58.4%,66.1%);
+}
+
+
+li a img{
+    text-decoration: none;
+}
+
+img#logo{
+    width: 65px;
+	padding: 0px 35px 0px 0px;
+    color: transparent;
+}
+
+ul{
+    display: inline-block;
+    z-index: 3;
+}
+
+hr#header{
+    opacity: 0.5;
+    color: white;
+    size: 4;
+}
+
+div#contents{
+    height: 520px;
+    background-color: rgba(0,0,0,.5); 
+    position: relative;
+    z-index: 2;
+
+}
+
+p#lobbytext{
+    line-height: 0px;
+    background-color: black, opacity(0.5);
+    vertical-align: bottom;
+    margin-left: 10px;
+    z-index: 2;
+}
+
+a#buttons{
+    display: block;
+    color: white;
+    width: auto;
+    text-decoration: none;
+    position: relative;
+}
+
+a#buttons:hover{
+    color: hsl(163.4,58.4%,66.1%);
+}
