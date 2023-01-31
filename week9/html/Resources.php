@@ -11,11 +11,11 @@
 	<div id="pageselector">
 		<center>
 			<ul>
-				<li id="buttons"><a href="../index.html" id="buttons">HOME</a></li>
-				<li id="buttons"><a href="Leo.html" id="buttons">SUN</a></li>
-				<li id="buttons"><a href="Gallery.html" id="logo"><img src="../images/wootteogallery.png" id="logo" padding="none"></img></a></li>
-				<li id="buttons"><a href="Sagi.html" id="buttons">MOON</a></li>
-				<li id="buttons"><a href="Libra.html" id="buttons">RISING</a></li>
+				<li id="buttons"><a href="../index.php" id="buttons">HOME</a></li>
+				<li id="buttons"><a href="Leo.php" id="buttons">SUN</a></li>
+				<li id="buttons"><a href="Gallery.php" id="logo"><img src="../images/wootteogallery.png" id="logo" padding="none"></img></a></li>
+				<li id="buttons"><a href="Sagi.php" id="buttons">MOON</a></li>
+				<li id="buttons"><a href="Libra.php" id="buttons">RISING</a></li>
 			</ul>
 		</center>
 		<hr id="header">
@@ -81,7 +81,7 @@
 
 			<h2>PHP Form Validation Example</h2>
 			<p><span class="error">* required field</span></p>
-			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
+			<form method="post" action="<?php echo phpspecialchars($_SERVER["PHP_SELF"]);?>">  
 			Name: <input type="text" name="name" value="<?php echo $name;?>">
 			<span class="error">* <?php echo $nameErr;?></span>
 			<br><br>

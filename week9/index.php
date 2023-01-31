@@ -12,11 +12,11 @@
 	<div id="pageselector">
 		<center>
 			<ul>
-				<li id="buttons"><a href="index.html" id="buttons">HOME</a></li>
-				<li id="buttons"><a href="html/Leo.html" id="buttons">SUN</a></li>
-				<li id="buttons"><a href="html/Gallery.html" id="logo"><img src="images/wootteogallery.png" id="logo" padding="none"></a></li>
-				<li id="buttons"><a href="html/Sagi.html" id="buttons">MOON</a></li>
-				<li id="buttons"><a href="html/Libra.html" id="buttons">RISING</a></li>
+				<li id="buttons"><a href="index.php" id="buttons">HOME</a></li>
+				<li id="buttons"><a href="html/Leo.php" id="buttons">SUN</a></li>
+				<li id="buttons"><a href="html/Gallery.php" id="logo"><img src="images/wootteogallery.png" id="logo" padding="none"></a></li>
+				<li id="buttons"><a href="html/Sagi.php" id="buttons">MOON</a></li>
+				<li id="buttons"><a href="html/Libra.php" id="buttons">RISING</a></li>
 			</ul>
 		</center>
 		<hr id="header">
@@ -64,7 +64,7 @@
 
 		<li id="wbuttons">
 			<div id="gallery">
-			<a href="html/Resources.html">
+			<a href="html/Resources.php">
 			  <img src="images/wootteoresources.png" alt="Resources Wootteo">
 			</a>
 			<div id="desc" style="font-size: 20px; font-family: TimesNewRoman; color: #76DBBF;">Spacecraft of Galaxy 020816</div>
