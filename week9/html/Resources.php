@@ -82,22 +82,22 @@
 			<p style="font-size: 55px; font-family: joane_stencilregular; color: white;" id="lobbytext">Register a Star!</p>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;"><span class="error">* This field is required</span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Star's Name:<input type="text" name="name" value="<?php echo $name;?>"></p>
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Star's Name: <input type="text" name="name" value="<?php echo $name;?>"></p>
 			<span class="error">* <?php echo $nameErr;?></span>
 			<br><br>
-			Star's Coordinates: <input type="text" name="email" value="<?php echo $email;?>">
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Star's Coordinates: <input type="text" name="email" value="<?php echo $email;?>"></p>
 			<span class="error">* <?php echo $emailErr;?></span>
 			<br><br>
-			Star's Station: <input type="text" name="website" value="<?php echo $website;?>">
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Star's Station: <input type="text" name="website" value="<?php echo $website;?>"></p>
 			<span class="error"><?php echo $websiteErr;?></span>
 			<br><br>
-			Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
 			<br><br>
-			Star's Identity:
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Star's Identity:
 			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
 			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
 			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
-			<span class="error">* <?php echo $genderErr;?></span>
+			<span class="error">* <?php echo $genderErr;?></span></p>
 			<br><br>
 			<input type="submit" name="submit" value="Submit">  
 			</form>
