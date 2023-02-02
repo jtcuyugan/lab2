@@ -79,10 +79,10 @@
 			}
 			?>
 
-			<h2 style="font-family: joane_stencilregular; color:white;">Register a Star!</h2>
+			<p style="font-size: 55px; font-family: joane_stencilregular; color: white;" id="lobbytext">Register a Star!</p>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;"><span class="error">* This field is required</span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Star's Name:</p><input type="text" name="name" value="<?php echo $name;?>">
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;">Star's Name:<input type="text" name="name" value="<?php echo $name;?>"></p>
 			<span class="error">* <?php echo $nameErr;?></span>
 			<br><br>
 			Star's Coordinates: <input type="text" name="email" value="<?php echo $email;?>">
