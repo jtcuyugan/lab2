@@ -11,11 +11,11 @@
 	<div id="pageselector">
 		<center>
 			<ul>
-				<li id="buttons"><a href="../index.html" id="buttons">HOME</a></li>
-				<li id="buttons"><a href="Leo.html" id="logo"><img src="../images/leo.png" id="logo" padding="none"></img></a></li>
-				<li id="buttons"><a href="Gallery.html" id="logo"><img src="../images/wootteogallery.png" id="logo" padding="none"></img></a></li>
-				<li id="buttons"><a href="Sagi.html" id="buttons">MOON</a></li>
-				<li id="buttons"><a href="Libra.html" id="buttons">RISING</a></li>
+				<li id="buttons"><a href="../index.php" id="buttons">HOME</a></li>
+				<li id="buttons"><a href="Leo.php" id="logo"><img src="../images/leo.png" id="logo" padding="none"></img></a></li>
+				<li id="buttons"><a href="Gallery.php" id="logo"><img src="../images/wootteogallery.png" id="logo" padding="none"></img></a></li>
+				<li id="buttons"><a href="Sagi.php" id="buttons">MOON</a></li>
+				<li id="buttons"><a href="Libra.php" id="buttons">RISING</a></li>
 			</ul>
 		</center>
 		<hr id="header">
