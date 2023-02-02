@@ -83,7 +83,7 @@
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;"><span class="error">* This field is required</span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Name: <input type="text" name="name" value="<?php echo $name;?>"></p>
-			<span class="error">* <?php echo $nameErr;?></span>
+			<span class="error" style="font-size: 20px; font-family: TimesNewRoman; color: white;">* <?php echo $nameErr;?></span>
 			<br><br>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Coordinates: <input type="text" name="email" value="<?php echo $email;?>"></p>
 			<span class="error">* <?php echo $emailErr;?></span>
