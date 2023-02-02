@@ -79,6 +79,7 @@
 			}
 			?>
 
+			<div id="form">
 			<h2>Register a Star!</h2>
 			<p style="font-size: 55px; font-family: joane_stencilregular; color: white;" id="lobbytext"><span class="error">* This field is required</span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
@@ -101,6 +102,7 @@
 			<br><br>
 			<input type="submit" name="submit" value="Submit">  
 			</form>
+			</div>
 
 			<?php
 			echo "<h2>Your Input:</h2>";

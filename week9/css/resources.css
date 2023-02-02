@@ -116,3 +116,9 @@ a#buttons{
 a#buttons:hover{
     color: hsl(163.4,58.4%,66.1%);
 }
+
+div#form{
+    font-size: 55px; 
+    font-family: joane_stencilregular; 
+    color: white;
+}
