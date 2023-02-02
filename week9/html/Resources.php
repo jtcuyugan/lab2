@@ -82,14 +82,14 @@
 			<p style="font-size: 55px; font-family: joane_stencilregular; color: white;" id="lobbytext">Register a Star!</p>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;"><span class="error">* This field is required</span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Name: <input type="text" name="name" value="<?php echo $name;?>"></p>
-			<span class="error" style="font-size: 20px; font-family: TimesNewRoman; color: white;">* <?php echo $nameErr;?></span>
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Name: <input type="text" name="name" value="<?php echo $name;?>">
+			<span class="error" style="font-size: 20px; font-family: TimesNewRoman; color: white;">* <?php echo $nameErr;?></span></p>
 			<br><br>
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Coordinates: <input type="text" name="email" value="<?php echo $email;?>"></p>
-			<span class="error">* <?php echo $emailErr;?></span>
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Coordinates: <input type="text" name="email" value="<?php echo $email;?>">
+			<span class="error">* <?php echo $emailErr;?></span></p>
 			<br><br>
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Station: <input type="text" name="website" value="<?php echo $website;?>"></p>
-			<span class="error"><?php echo $websiteErr;?></span>
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Star's Station: <input type="text" name="website" value="<?php echo $website;?>">
+			<span class="error"><?php echo $websiteErr;?></span></p>
 			<br><br>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="lobbytext">Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
 			<br><br>
