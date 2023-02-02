@@ -33,7 +33,7 @@
 		<br><br><br>
 
 		<p style="font-size: 60px; font-family: joane_stencilregular; color: white;" id="lobbytitle"></p>
-		<p style="font-size: 30px; font-family: TimesNewRoman; color: white;" id="lobbytext">Galaxy 020816</p>
+		<p style="font-size: 30px; font-family: TimesNewRoman; color: white;" id="lobbytext">Galaxy 020816/p>
 		<br>
 		<p style="font-size: 30px; font-family: joane_stencilregular; color: white;" id="lobbytext">About:</p>
 		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">Either called Jam or Jamzy, this galaxy is known</p>
