@@ -41,7 +41,7 @@
 			}
 			
 			if (empty($_POST["email"])) {
-				$emailErr = "Coordinates are";
+				$emailErr = "Coordinates are required";
 			} else {
 				$email = test_input($_POST["email"]);
 				if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
