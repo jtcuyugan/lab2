@@ -32,14 +32,14 @@
 <div id="contents">
 		<br><br><br>
 
-		<p style="font-size: 60px; font-family: joane_stencilregular; color: white;" id="lobbytitle"></p>
-		<p style="font-size: 30px; font-family: TimesNewRoman; color: white;" id="lobbytext">Galaxy 020816</p>
+		<p style="font-size: 50px; font-family: joane_stencilregular; color: white;" id="lobbytitle"></p>
+		<p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="lobbytext">Galaxy 020816</p>
 		<br>
-		<p style="font-size: 30px; font-family: joane_stencilregular; color: white;" id="lobbytext">About:</p>
-		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">Either called Jam or Jamzy, this galaxy is known</p>
-		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">for the various celestial bodies swimming along </p>
-		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">her space. This galaxy is continuously expanding </p>
-		<p style="font-size: 25px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">and its entirety is still being explored.</p>
+		<p style="font-size: 25px; font-family: joane_stencilregular; color: white;" id="lobbytext">About:</p>
+		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">Either called Jam or Jamzy, this galaxy is known</p>
+		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">for the various celestial bodies swimming along </p>
+		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">her space. This galaxy is continuously expanding </p>
+		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbydesc">and its entirety is still being explored.</p>
 		
 <div id="wpageselector">
 	<center>
