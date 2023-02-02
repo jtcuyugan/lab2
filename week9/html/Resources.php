@@ -101,20 +101,8 @@
 			<br><br>
 			<input type="submit" name="submit" value="Submit">  
 			</form>
-
-			<?php
-			echo "<h2>Your Input:</h2>";
-			echo $name;
-			echo "<br>";
-			echo $email;
-			echo "<br>";
-			echo $website;
-			echo "<br>";
-			echo $comment;
-			echo "<br>";
-			echo $gender;
-			?>
 		</center>
+		
 		<center>
 		<p style="font-size: 55px; font-family: joane_stencilregular; color: white;" id="lobbytext">Resources</p>
 		<br>
