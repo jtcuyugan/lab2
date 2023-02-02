@@ -117,8 +117,8 @@ a#buttons:hover{
     color: hsl(163.4,58.4%,66.1%);
 }
 
-div#form{
-    font-size: 55px; 
-    font-family: joane_stencilregular; 
-    color: white;
+p#restext{
+    line-height: 0px;
+    background-color: black, opacity(0.5);
+    vertical-align: bottom;
 }
