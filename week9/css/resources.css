@@ -118,7 +118,7 @@ a#buttons:hover{
 }
 
 p#restext{
-    line-height: 0px;
+    line-height: 5px;
     background-color: black, opacity(0.5);
     vertical-align: bottom;
 }
