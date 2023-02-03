@@ -27,7 +27,7 @@
 		<p style="font-size: 55px; font-family: joane_stencilregular; color: white;" id="lobbytext">Resources</p>
 		<br>
 
-		<p style="font-size: 30px; font-family: joane_stencilregular; color: white;" id="lobbytext">HTML and CSS</p>
+		<p style="font-size: 30px; font-family: joane_stencilregular; color: white;" id="lobbytext">Source Codes</p>
         <p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbytext"><a href="https://www.w3schools.com/html/default.asp" target="_blank" id="buttons">W3Schools HTML</a></p>
 		<p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbytext"><a href="https://www.w3schools.com/css/default.asp" target="_blank" id="buttons">W3Schools CSS</a></p>
         <p style="font-size: 20px; font-family: TimesNewRoman; color: lightgray;" id="lobbytext"><a href="https://codesandbox.io/s/d2nei?file=/style.css:5133-5480" target="_blank" id="buttons">Gallery Layout</a></p>
