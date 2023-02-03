@@ -65,7 +65,16 @@
 		<li id="wbuttons">
 			<div id="gallery">
 			<a href="html/Resources.php">
-			  <img src="images/wootteoresources.png" alt="Resources Wootteo">
+			  <img src="images/wootteosing.png" alt="Resources Wootteo">
+			</a>
+			<div id="desc" style="font-size: 20px; font-family: TimesNewRoman; color: #76DBBF;">Spacecraft of Galaxy 020816</div>
+		  	</div>
+		</li>
+
+		<li id="wbuttons">
+			<div id="gallery">
+			<a href="html/Feedback.php">
+			  <img src="images/wootteofeedback.png" alt="Feedback Wootteo">
 			</a>
 			<div id="desc" style="font-size: 20px; font-family: TimesNewRoman; color: #76DBBF;">Spacecraft of Galaxy 020816</div>
 		  	</div>
