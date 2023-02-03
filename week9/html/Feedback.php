@@ -27,7 +27,7 @@
     <br>
 		<center>
 		<?php
-			$nameErr = $emailErr = $genderErr = $websiteErr = "";
+			$nameErr = $emailErr = $genderErr = $commentErr = $websiteErr = "";
 			$name = $email = $gender = $comment = $website = "";
 
 			function test_input($data)
@@ -67,7 +67,7 @@
 			}
 
 			if (empty($_POST["comment"])) {
-				$comment = "";
+				$commentErr = "Please communicate for effective creation";
 			} else {
 				$comment = test_input($_POST["comment"]);
 			}
@@ -81,21 +81,26 @@
 			?>
 
 			<p style="font-size: 50px; font-family: joane_stencilregular; color: white;" id="restext">Register a Star!</p>
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;"><span class="error">* This field is required</span></p>
+			<p style="font-size: 15px; font-family: TimesNewRoman; color: white;"><span class="error">* This field is required</span></p>
 			<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Name:>
-            <p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext"><input type="text" name="name" value="<?php echo $name;?>">
+			<p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext">Star's Name:
+            <p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext"><input type="text" name="name" value="<?php echo $name;?>">
 			<span class="error" style="font-size: 20px; font-family: TimesNewRoman; color: white;">* <?php echo $nameErr;?></span></p>
 			<br>
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Coordinates: <input type="text" name="email" value="<?php echo $email;?>">
+			<p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext">Star's Coordinates:
+            <p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext"><input type="text" name="email" value="<?php echo $email;?>">
 			<span class="error">* <?php echo $emailErr;?></span></p>
 			<br>
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Station: <input type="text" name="website" value="<?php echo $website;?>">
+			<p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext">Star's Station:
+            <p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext"><input type="text" name="website" value="<?php echo $website;?>">
 			<span class="error"><?php echo $websiteErr;?></span></p>
 			<br>
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
+			<p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext">Star's Comment:</p>
+            <p style="font-size: 25px; font-family: TimesNewRoman; color: white;" id="restext"><textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea>
+            <span class="error">* <?php echo $commentErr;?></span></p>
 			<br>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Identity:
+            <p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">
 			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
 			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
 			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
