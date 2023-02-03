@@ -76,7 +76,7 @@
 			<a href="html/Feedback.php">
 			  <img src="images/wootteofeedback.png" alt="Feedback Wootteo">
 			</a>
-			<div id="desc" style="font-size: 20px; font-family: TimesNewRoman; color: #76DBBF;">Stars of Galaxy 020816</div>
+			<div id="desc" style="font-size: 20px; font-family: TimesNewRoman; color: #9D1AFB;">Stars of Galaxy 020816</div>
 		  	</div>
 		</li>
 		</ul>
