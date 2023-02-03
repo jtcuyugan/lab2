@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title> [ RESOURCES ] </title>
 	<link rel="stylesheet" type="text/css" href = "../css/resources.css">
-	<link rel="icon" type="image/png" href="../images/wootteosing.png">
+	<link rel="icon" type="image/x-icon" href="../images/wootteosing.ico">
 </head>
 <body>
 <div id="navbar" id="top">

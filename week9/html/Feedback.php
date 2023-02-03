@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title> [ FEEDBACK ] </title>
 	<link rel="stylesheet" type="text/css" href = "../css/resources.css">
-	<link rel="icon" type="image/png" href="../images/wootteofeedback.png">
+	<link rel="icon" type="image/x-icon" href="../images/wootteofeedback.ico">
 </head>
 <body>
 <div id="navbar" id="top">

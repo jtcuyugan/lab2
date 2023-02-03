@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title> SAGITTARIUS </title>
 	<link rel="stylesheet" type="text/css" href = "../css/starpages.css">
-	<link rel="icon" type="image/png" href="../images/sagi.png">
+	<link rel="icon" type="image/x-icon" href="../images/sagi.ico">
 </head>
 <body>
 <div id="navbar" id="top">
