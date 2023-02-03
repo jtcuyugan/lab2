@@ -30,6 +30,14 @@
 			$nameErr = $emailErr = $genderErr = $websiteErr = "";
 			$name = $email = $gender = $comment = $website = "";
 
+			function test_input($data)
+			{
+			$data = trim($data);
+			$data = stripslashes($data);
+			$data = htmlspecialchars($data);
+			return $data;
+			}
+
 			if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			if (empty($_POST["name"])) {
 				$nameErr = "The Star must be named.";
@@ -69,14 +77,7 @@
 			} else {
 				$gender = test_input($_POST["gender"]);
 			}
-			}
-
-			function test_input($data) {
-			$data = trim($data);
-			$data = stripslashes($data);
-			$data = htmlspecialchars($data);
-			return $data;
-			}
+		}
 			?>
 
 			<p style="font-size: 50px; font-family: joane_stencilregular; color: white;" id="restext">Register a Star!</p>
@@ -91,7 +92,7 @@
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Station: <input type="text" name="website" value="<?php echo $website;?>">
 			<span class="error"><?php echo $websiteErr;?></span></p>
 			<br>
-			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
+			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Comment: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
 			<br>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Identity:
 			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
@@ -101,6 +102,34 @@
 			<br><br>
 			<input type="submit" name="submit" value="Submit">  
 			</form>
+			
+			<?php
+			// database connection code
+			$con = mysqli_connect('localhost', 'root', '','StarDB');
+			if($con === false){
+				die("ERROR: Could not connect. "
+					. mysqli_connect_error());
+			}
+
+			// get the post records
+			$name = $_REQUEST['name'];
+			$email = $_REQUEST['email'];
+			$website = $_REQUEST['website'];
+			$comment = $_REQUEST['comment'];
+			$gender = $_REQUEST['gender'];
+
+			// database insert SQL code
+			$sql = "INSERT INTO Stars VALUES ('0', '$name', '$email', '$website', '$comment', '$gender')";
+
+			if(mysqli_query($con, $sql)){
+
+			} else{
+				mysqli_error($con);
+			}
+
+			// Close connection
+			mysqli_close($con);
+			?>
 		</center>
     </div>
     </body>
