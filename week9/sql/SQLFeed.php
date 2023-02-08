@@ -17,7 +17,7 @@
 			$gender = $_REQUEST['gender'];
 
 			// database insert SQL code
-			$sql = "INSERT INTO jtcuyugan_stars VALUES ('$name', '$email', '$website', '$comment', '$gender')";
+			$sql = "INSERT INTO jtcuyugan_stars (name, email, website, comment, gender) VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 			
 			if(mysqli_query($con, $sql)){
 				echo "<script> location.href='../html/Feedback.php'; </script>";
