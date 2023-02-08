@@ -20,7 +20,7 @@
 			$sql = "INSERT INTO jtcuyugan_stars (name, email, website, comment, gender) VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 			
 			if(mysqli_query($con, $sql)){
-				echo "<script> location.href='../html/Feedback.php'; </script>";
+				echo "<script> location.href='Feedback.php'; </script>";
         		exit;
 			} else{
 				echo "Failed to register Star";
