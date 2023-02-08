@@ -23,7 +23,7 @@
 				echo "<script> location.href='../html/Feedback.php'; </script>";
         		exit;
 			} else{
-				echo "Failed to register star";
+				echo "Failed to register Star";
 				mysqli_error($con);
 			}
 

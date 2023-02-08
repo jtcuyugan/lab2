@@ -138,6 +138,7 @@ table {
 th {
     background-color: black;
     color: hsl(163.4,58.4%,66.1%);
+    font-size: 25px;
   }
 
 th, td {

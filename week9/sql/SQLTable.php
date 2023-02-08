@@ -27,7 +27,7 @@ $db= $conn;
 
 $tableName="jtcuyugan_stars";
 
-$columns= ['name', 'email','website','comment','gender'];
+$columns= ['id', 'name', 'email','website','comment','gender'];
 
 $fetchData = fetch_data($db, $tableName, $columns);
 

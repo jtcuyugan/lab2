@@ -110,7 +110,6 @@
 			
 			if(array_key_exists('submit', $_POST)){
 				echo "<br><p style='font-size: 20px; font-family: joane_stencilregular; color: white;' id='restext'>Star Successfully Created!</p><br>";
-        		exit;
 			} else{
 				mysqli_error($con);
 			}
