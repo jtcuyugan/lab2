@@ -3,7 +3,7 @@
 	<body>
 	<?php
 			// database connection code
-			$con = mysqli_connect('localhost', 'root', '','StarDB');
+			$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','webprogmi212');
 			if($con === false){
 				die("ERROR: Could not connect. "
 					. mysqli_connect_error());
@@ -17,7 +17,7 @@
 			$gender = $_REQUEST['gender'];
 
 			// database insert SQL code
-			$sql = "INSERT INTO stars VALUES ('0', '$name', '$email', '$website', '$comment', '$gender')";
+			$sql = "INSERT INTO jtcuyugan_stars VALUES ('0', '$name', '$email', '$website', '$comment', '$gender')";
 			
 			if(mysqli_query($con, $sql)){
 				echo "<script> location.href='../html/Feedback.php'; </script>";

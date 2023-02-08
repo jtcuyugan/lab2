@@ -96,9 +96,9 @@
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Message: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
 			<br>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Identity:
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="Female">Female
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="Male">Male
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="Other">Other  
 			<span class="error">* <?php echo $genderErr;?></span></p>
 			<br><br>
 			<input type="submit" name="submit" value="Submit">  
@@ -106,7 +106,7 @@
 		
 			<?php
 			// database connection code
-			$con = mysqli_connect('localhost', 'root', '','StarDB');
+			$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','webprogmi212');
 			
 			if(array_key_exists('submit', $_POST)){
 				echo "<br><p style='font-size: 20px; font-family: joane_stencilregular; color: white;' id='restext'>Star Successfully Created!</p><br>";
