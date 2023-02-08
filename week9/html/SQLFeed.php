@@ -2,6 +2,7 @@
 <html>
 	<body>
 	<?php
+			// Code from: https://www.geeksforgeeks.org/how-to-insert-form-data-into-database-using-php/
 			// database connection code
 			$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','webprogmi212');
 			if($con === false){

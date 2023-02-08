@@ -82,7 +82,7 @@
 
 			<p style="font-size: 20; font-family: joane_stencilregular;" id="explore"><a href="Guests.php" id="explore">Explore the Created Galaxy</a></p>
 
-			<form method="post" action="SQLFeed.php">  
+			<form method="POST" action="SQLFeed.php">  
 			
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Name: <input type="text" name="name" value="<?php echo $name;?>">
 			<span class="error" style="font-size: 20px; font-family: TimesNewRoman; color: white;">* <?php echo $nameErr;?></span></p>
