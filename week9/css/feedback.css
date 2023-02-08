@@ -90,7 +90,7 @@ hr#header{
 }
 
 div#contents{
-    height: 520px;
+    height: auto;
     background-color: rgba(0,0,0,.5); 
     position: relative;
     z-index: 2;
@@ -117,8 +117,35 @@ a#buttons:hover{
     color: hsl(163.4,58.4%,66.1%);
 }
 
-p#restext{
-    line-height: 0px;
-    background-color: black, opacity(0.5);
-    vertical-align: bottom;
+p a#explore{
+    color: hsl(163.4,58.4%,66.1%);
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0.2s;
+}
+
+p a#explore:hover{
+    color: #9D1AFB;
+    font-size: 25px;
+    
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+}
+
+th {
+    background-color: black;
+    color: hsl(163.4,58.4%,66.1%);
+  }
+
+th, td {
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 20px;
+}
+
+tr:hover {
+    color: #9D1AFB;
 }

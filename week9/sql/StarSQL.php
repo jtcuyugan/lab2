@@ -14,11 +14,11 @@ if ($conn->connect_error) {
 // sql to create table
 $sql = "CREATE TABLE Stars (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-name VARCHAR(30) NOT NULL,
-email VARCHAR(50) NOT NULL,
-website VARCHAR(30) NOT NULL,
-comment VARCHAR(150) NOT NULL,
-gender VARCHAR(30) NOT NULL
+name VARCHAR(300) NOT NULL,
+email VARCHAR(300) NOT NULL,
+website VARCHAR(300) NOT NULL,
+comment VARCHAR(300) NOT NULL,
+gender VARCHAR(300) NOT NULL
 )";
 
 if ($conn->query($sql) === TRUE) {
