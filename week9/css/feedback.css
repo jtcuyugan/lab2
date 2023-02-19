@@ -138,13 +138,9 @@ table {
 th {
     background-color: black;
     color: hsl(163.4,58.4%,66.1%);
-    font-size: 25px;
-    border-bottom: 1px solid white;
-    color: white;
-    padding: 20px;
   }
 
-td {
+th, td {
     border-bottom: 1px solid white;
     color: white;
     padding: 20px;
