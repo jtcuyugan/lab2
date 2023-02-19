@@ -27,7 +27,7 @@
 
 <?php
 include("../sql/SQLTable.php");
-$query = "SELECT name, email, website, comment, gender FROM Stars";
+$query = "SELECT id, name, email, website, comment, gender FROM jtcuyugan_stars";
 $result = $conn->query($query);
 ?>
 <table>

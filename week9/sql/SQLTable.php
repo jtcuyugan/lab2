@@ -10,9 +10,9 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "StarDB";
+$username = "webprogmi212";
+$password = "webprogmi212";
+$dbname = "webprogmi212";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -25,9 +25,9 @@ if ($conn->connect_error) {
 <?php
 $db= $conn;
 
-$tableName="Stars";
+$tableName="jtcuyugan_stars";
 
-$columns= ['name', 'email','website','comment','gender'];
+$columns= ['id', 'name', 'email','website','comment','gender'];
 
 $fetchData = fetch_data($db, $tableName, $columns);
 
