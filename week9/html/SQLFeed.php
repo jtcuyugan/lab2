@@ -25,8 +25,7 @@
 				echo "<script> location.href='Feedback.php'; </script>";
         		exit;
 			} else{
-				echo "Failed to register Star";
-				mysqli_error($con);
+				echo "Failed to register Star" . mysqli_error($con);
 			}
 
 			// Close connection
