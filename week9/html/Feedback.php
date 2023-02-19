@@ -82,7 +82,7 @@
 
 			<p style="font-size: 20; font-family: joane_stencilregular;" id="explore"><a href="Guests.php" id="explore">Explore the Created Galaxy</a></p>
 
-			<form method="post" action="SQLFeed.php">  
+			<form method="post" action="../sql/SQLFeed.php">  
 			
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Name: <input type="text" name="name" value="<?php echo $name;?>">
 			<span class="error" style="font-size: 20px; font-family: TimesNewRoman; color: white;">* <?php echo $nameErr;?></span></p>
@@ -96,9 +96,9 @@
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Message: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
 			<br>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Identity:
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="Female">Female
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="Male">Male
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="Other">Other  
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
 			<span class="error">* <?php echo $genderErr;?></span></p>
 			<br><br>
 			<input type="submit" name="submit" value="Submit">  
@@ -106,10 +106,11 @@
 		
 			<?php
 			// database connection code
-			$con = mysqli_connect('localhost', 'webprogmi212', 'webprogmi212','webprogmi212');
+			$con = mysqli_connect('localhost', 'root', '','StarDB');
 			
 			if(array_key_exists('submit', $_POST)){
 				echo "<br><p style='font-size: 20px; font-family: joane_stencilregular; color: white;' id='restext'>Star Successfully Created!</p><br>";
+        		exit;
 			} else{
 				mysqli_error($con);
 			}

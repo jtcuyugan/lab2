@@ -4,7 +4,7 @@
 	<title>[ SPACE JAM ]</title>
 	<link rel="shortcut icon" href="/images/wootteohome.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href = "css/index.css">
-	<script src="jscript/index.js"></script>
+    <script src="jscript/index.js"></script>
 </head>
 <body onload="typeWriter()">
 
