@@ -29,7 +29,7 @@
 		<?php
 			$nameErr = $emailErr = $genderErr = $websiteErr = "";
 			$name = $email = $gender = $comment = $website = "";
-
+			
 			if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			if (empty($_POST["name"])) {
 				$nameErr = "The Star must be named.";
@@ -96,17 +96,29 @@
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Message: <textarea name="comment" rows="5" cols="40"><?php echo $comment;?></textarea></p>
 			<br>
 			<p style="font-size: 20px; font-family: TimesNewRoman; color: white;" id="restext">Star's Identity:
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="female">Female
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="male">Male
-			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="other">Other  
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?> value="Female">Female
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?> value="Male">Male
+			<input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?> value="Other">Other  
 			<span class="error">* <?php echo $genderErr;?></span></p>
 			<br><br>
 			<input type="submit" name="submit" value="Submit">  
 			</form>
 		
 			<?php
-			// database connection code
-			$con = mysqli_connect('localhost', 'root', '','StarDB');
+			if ($_SERVER["REQUEST_METHOD"] == "POST") 
+			{
+			
+				$servername = "192.168.150.213";
+				$username = "webprogmi212";
+				$password = "b3ntRhino98";
+				$dbname = "webprogmi212";
+				
+				// Create connection
+				$con = new mysqli($servername, $username, $password, $dbname);
+				// Check connection
+				if ($con->connect_error) {
+				die("Connection failed: " . $con->connect_error);
+				}
 			
 			if(array_key_exists('submit', $_POST)){
 				echo "<br><p style='font-size: 20px; font-family: joane_stencilregular; color: white;' id='restext'>Star Successfully Created!</p><br>";
@@ -117,6 +129,7 @@
 
 			// Close connection
 			mysqli_close($con);
+			}
 			?>
 			<br><br><br>
 		</center>
